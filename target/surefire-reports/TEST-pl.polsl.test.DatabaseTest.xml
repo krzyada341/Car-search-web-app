@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.polsl.test.DatabaseTest" time="0.136" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp\target\test-classes;C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp\target\classes;C:\Users\Krzysio\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\Krzysio\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Krzysio\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Krzysio\AppData\Local\Temp\surefire17364078807479651698\surefirebooter11000883762332090782.jar C:\Users\Krzysio\AppData\Local\Temp\surefire17364078807479651698 2022-11-25T16-12-27_141-jvmRun1 surefire5708109278189002614tmp surefire_04479898546577461886tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="pl.polsl.test.DatabaseTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp\target\test-classes;C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp\target\classes;C:\Users\Krzysio\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\Krzysio\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Krzysio\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Krzysio\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Krzysio"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Krzysio\AppData\Local\Temp\surefire17364078807479651698\surefirebooter11000883762332090782.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="Krzysio"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Krzysio\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Krzysio\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Users\Krzysio\Documents\NetBeansProjects\CarRentalWebApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\Krzysio\AppData\Local\Microsoft\WindowsApps;C:\Users\Krzysio\.dotnet\tools;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testSetDatabase(String)[1]" classname="pl.polsl.test.DatabaseTest" time="0.029"/>
+  <testcase name="testSetDatabase(String)[2]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetDatabase(String)[3]" classname="pl.polsl.test.DatabaseTest" time="0"/>
+  <testcase name="testSetDatabase(String)[4]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetDatabase(String)[5]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetDatabase(String)[6]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetDatabase(String)[7]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetDatabase(String)[8]" classname="pl.polsl.test.DatabaseTest" time="0"/>
+  <testcase name="testSetGroupPrice(char, String)[1]" classname="pl.polsl.test.DatabaseTest" time="0.008"/>
+  <testcase name="testSetGroupPrice(char, String)[2]" classname="pl.polsl.test.DatabaseTest" time="0.003"/>
+  <testcase name="testSetGroupPrice(char, String)[3]" classname="pl.polsl.test.DatabaseTest" time="0.018"/>
+  <testcase name="testSetGroupPrice(char, String)[4]" classname="pl.polsl.test.DatabaseTest" time="0.002"/>
+  <testcase name="testSetGroupPrice(char, String)[5]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetGroupPrice(char, String)[6]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetGroupPrice(char, String)[7]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+  <testcase name="testSetGroupPrice(char, String)[8]" classname="pl.polsl.test.DatabaseTest" time="0.001"/>
+</testsuite>

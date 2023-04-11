@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Car rental service</h1>
+        <h3>Set database filename</h3>
+        <form action="SetFilename" method="GET">
+            <p>Filename <input type=text size=20 name=filename></p>
+            <input type="submit" value="Set database" />
+        </form>
+        <hr>
+        <h3>Display cars</h3>
+        <form action="DisplayDatabase" method="GET">
+            <p><input type=radio name=displayOption value=all>All groups</p>
+            <p><input type=radio name=displayOption value=A>Group A</p>
+            <p><input type=radio name=displayOption value=B>Group B</p>
+            <p><input type=radio name=displayOption value=C>Group C</p>
+            <input type="submit" value="Display">
+        </form>
+        <hr>
+        <h3>Change group price</h3>
+        <form action="ChangePrice" method="GET">
+            <p><input type=radio name=groupOption value=A>Group A</p>
+            <p><input type=radio name=groupOption value=B>Group B</p>
+            <p><input type=radio name=groupOption value=C>Group C</p>
+            <p>Set price <input type=number step=0.01 name=priceValue></p>
+            <input type="submit" value="Change">
+        </form>
+        <hr>
+        <h3>Get raport</h3>
+        <form action="GetRaport" method="GET">
+            <p>Get raport <input type="submit" value="Get">
+        </form>
+    </body>
+</html>
